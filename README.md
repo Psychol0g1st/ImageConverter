@@ -11,6 +11,8 @@ Ez a dokumentáció bemutatja, hogyan használhatod a mellékelt Python szkripte
 4. **Kimenet** A konvertált képek az "output" mappában fognak megjelenni, megtartva az eredeti mappastruktúrát.
 
 ## Figyelmeztetések
+- Ha az "input" és "output" mappák nem léteznek akkor hozd létre azokat.
+
 - Győződj meg róla, hogy a képeknek támogatnia kell a WebP konverziót. A szkript csak olyan képeket dolgoz fel, amelyek kiterjesztése .png, .jpg vagy .jpeg.
 
 - Ne változtass az "input" és "output" mappa elnevezéseken, hacsak nem szeretnél egyéni mappastruktúrát létrehozni és módosítani a szkriptet ennek megfelelően.
